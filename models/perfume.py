@@ -1,28 +1,54 @@
 from enum import Enum
 
-
 class Perfume(str, Enum):
-    AMAZEMENT = "amazement"  # 驚愕
-    SURPRISE = "surprise"  # サプライズ
-    EXCITEMENT = "excitement"  # ワクワク
-    JOY = "joy"  # 喜び
-    SATISFACTION = "satisfaction"  # 満足
-    HAPPINESS = "happiness"  # 嬉しい
-    BLESSED = "blessed"  # 幸せ
-    RELIEF = "relief"  # 安心
-    FULFILLMENT = "fulfillment"  # 充実感
-    RELAXED = "relaxed"  # リラックス
-    PEACEFUL = "peaceful"  # 穏やか
-    CALM = "calm"  # 冷静
-    DAZED = "dazed"  # ぼんやり
-    BORED = "bored"  # 退屈
-    TIRED = "tired"  # 疲れた
-    SLUGGISH = "sluggish"  # だるい
-    SAD = "sad"  # 悲しい
-    DEPRESSED = "depressed"  # 憂鬱
-    MISERABLE = "miserable"  # 惨め
-    DISAPPOINTED = "disappointed"  # がっかり
-    IRRITATED = "irritated"  # いらいら
-    FEAR = "fear"  # 恐怖
-    NERVOUS = "nervous"  # 緊張
-    ANGRY = "angry"  # 怒り
+    AMAZEMENT = "驚愕"
+    SURPRISE = "サプライズ"
+    EXCITEMENT = "ワクワク"
+    JOY = "喜び"
+    SATISFACTION = "満足"
+    HAPPINESS = "嬉しい"
+    BLESSED = "幸せ"
+    RELIEF = "安心"
+    FULFILLMENT = "充実感"
+    RELAXED = "リラックス"
+    PEACEFUL = "穏やか"
+    CALM = "冷静"
+    DAZED = "ぼんやり"
+    BORED = "退屈"
+    TIRED = "疲れた"
+    SLUGGISH = "だるい"
+    SAD = "悲しい"
+    DEPRESSED = "憂鬱"
+    MISERABLE = "惨め"
+    DISAPPOINTED = "がっかり"
+    IRRITATED = "いらいら"
+    FEAR = "恐怖"
+    NERVOUS = "緊張"
+    ANGRY = "怒り"
+
+
+class Food(str, Enum):
+    MINT_CANDY = "ハッカ飴"
+    SODA = "ソーダ"
+    PINEAPPLE_SHAVED_ICE = "パインのかき氷"
+    STRAWBERRY_ICE_CREAM = "いちごアイス"
+    FRIED_CHICKEN = "唐揚げ"
+    CHOCOLATE = "チョコレート"
+    VANILLA_CAKE = "バニラケーキ"
+    ROSE_JELLY = "ローズゼリー"
+    SWEET_POTATO = "焼き芋"
+    MIXED_NUTS = "ミックスナッツ"
+    JASMINE_TEA = "ジャスミン茶"
+    HOT_TEA = "ホットティー"
+    MILK = "牛乳"
+    WATER = "水"
+    COFFEE = "コーヒー"
+    CIGARETTE = "たばこ"
+    RICE_VINEGAR = "激スッパオレンジ"
+    WINE = "ワイン"
+    BITTER_GOURD_SALAD = "ゴーヤサラダ"
+    BEER = "ビール"
+    MEDICINAL_SOUP = "薬膳スープ"
+    MUSHROOM_SOUP = "?きのこスープ"
+    WASABI = "わさび"
+    SPICY_MAPO_TOFU = "激辛麻婆豆腐"
