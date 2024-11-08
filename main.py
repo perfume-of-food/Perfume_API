@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 import os
 import json
 import threading
-from mock_printer import mock_printer
 
 from utils.file_manager import init_printer_directory
 from contextlib import asynccontextmanager
@@ -15,13 +14,6 @@ async def lifespan(app: FastAPI):
     # 启动时运行
     global printer_dir
     printer_dir = init_printer_directory()
-    printer_thread = threading.Thread(
-        target=mock_printer,
-        args=(printer_dir,),
-        daemon=True
-    )
-    printer_thread.start()
-    print("Mock printer service started in background")
     
     yield
     
