@@ -25,6 +25,7 @@ class Perfume(str, Enum):
     FEAR = "恐怖"
     NERVOUS = "緊張"
     ANGRY = "怒り"
+    NONE = "無"
 
 
 class Food(str, Enum):
@@ -52,3 +53,4 @@ class Food(str, Enum):
     MUSHROOM_SOUP = "?きのこスープ"
     WASABI = "わさび"
     SPICY_MAPO_TOFU = "激辛麻婆豆腐"
+    NONE = "無"
